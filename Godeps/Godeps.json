@@ -600,7 +600,7 @@
 		},
 		{
 			"ImportPath": "go.etcd.io/bbolt",
-			"Rev": "v1.3.3"
+			"Rev": "v1.3.5"
 		},
 		{
 			"ImportPath": "go.etcd.io/etcd",
@@ -764,7 +764,7 @@
 		},
 		{
 			"ImportPath": "k8s.io/apiserver",
-			"Rev": "5b9050fcdc22"
+			"Rev": "b8bc13ce7cc0"
 		},
 		{
 			"ImportPath": "k8s.io/client-go",
