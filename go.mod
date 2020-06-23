@@ -2,7 +2,7 @@
 
 module k8s.io/kube-aggregator
 
-go 1.13
+go 1.14
 
 require (
 	github.com/davecgh/go-spew v1.1.1
@@ -14,24 +14,24 @@ require (
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.4.0
 	golang.org/x/net v0.0.0-20200324143707-d3edc9973b7e
-	k8s.io/api v0.0.0-20200619195634-beb8c24427d7
-	k8s.io/apimachinery v0.0.0-20200619195453-1be0d88b587c
-	k8s.io/apiserver v0.0.0-20200623081202-a1605d16f74f
-	k8s.io/client-go v0.0.0-20200623080228-524b37633880
-	k8s.io/code-generator v0.0.0-20200619195316-1dcbb936d686
-	k8s.io/component-base v0.0.0-20200623080824-d3f1edfeae35
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/apiserver v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/code-generator v0.0.0
+	k8s.io/component-base v0.0.0
 	k8s.io/klog/v2 v2.1.0
 	k8s.io/kube-openapi v0.0.0-20200427153329-656914f816f9
 	k8s.io/utils v0.0.0-20200619165400-6e3d28b6ed19
 )
 
 replace (
-	golang.org/x/sys => golang.org/x/sys v0.0.0-20190813064441-fde4db37ae7a // pinned to release-branch.go1.13
-	golang.org/x/tools => golang.org/x/tools v0.0.0-20190821162956-65e3620a7ae7 // pinned to release-branch.go1.13
-	k8s.io/api => k8s.io/api v0.0.0-20200619195634-beb8c24427d7
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20200619195453-1be0d88b587c
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20200623081202-a1605d16f74f
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20200623080228-524b37633880
-	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20200619195316-1dcbb936d686
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20200623080824-d3f1edfeae35
+	golang.org/x/sys => golang.org/x/sys v0.0.0-20200201011859-915c9c3d4ccf // pinned to release-branch.go1.14-std
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/code-generator => ../code-generator
+	k8s.io/component-base => ../component-base
+	k8s.io/kube-aggregator => ../kube-aggregator
 )
